@@ -1,3 +1,5 @@
+let selectedProduct = "";
+let selectedColour = "";
 const products = {
   "air-force-1": {
     name: "Nike Air Force 1",
@@ -60,6 +62,8 @@ function openProduct(productId) {
   const product = products[productId];
 
   if (!product) return;
+  selectedProduct = product.name;
+selectedColour = product.colours[0].name;
 
   productName.textContent = product.name;
   productTopName.textContent = product.name;
@@ -72,6 +76,7 @@ function openProduct(productId) {
 
     button.type = "button";
     button.className = "colour-option";
+    button.dataset.colour = colour.name;
 
     if (index === 0) {
       button.classList.add("active");
@@ -87,7 +92,9 @@ function openProduct(productId) {
     `;
 
     button.addEventListener("click", () => {
+        
 
+        selectedColour = button.dataset.colour;
       mainProductImage.src = colour.image;
 
       mainProductImage.alt =
@@ -168,20 +175,21 @@ backButton.addEventListener("click", () => {
     behavior: "instant"
   });
 
-});
+});/* DM BUTTON */
 
-
-/* DM BUTTON */
-
-const dmButton =
-  document.getElementById("dm-button");
+const dmButton = document.getElementById("dm-button");
 
 dmButton.addEventListener("click", event => {
-
   event.preventDefault();
 
-  alert(
-    "DM us for current availability."
-  );
+  const phoneNumber = "27638614852";
 
+ const message =
+  `Hi! I'm interested in the ${selectedProduct} - ${selectedColour}. Could you please confirm availability?`;
+  const whatsappURL =
+    `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, "_blank");
 });
+
+
