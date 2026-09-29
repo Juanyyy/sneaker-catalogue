@@ -81,6 +81,24 @@ const products = {
         }
     ]
 },
+"nike-air-max-97": {
+    name: "Nike Air Max 97",
+    size: "UK 4–10",
+    colours: [
+        {
+            name: "Silver",
+            image: "images/nike-air-max-97-silver.jpg"
+        },
+        {
+            name: "Black",
+            image: "images/nike-air-max-97-black.jpg"
+        },
+        {
+            name: "White",
+            image: "images/nike-air-max-97-white.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
