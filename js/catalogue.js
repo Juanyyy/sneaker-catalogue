@@ -99,6 +99,16 @@ const products = {
         }
     ]
 },
+"nike-air-force-1-utility": {
+    name: "Nike Air Force 1 Utility",
+    size: "UK 4–10",
+    colours: [
+        {
+            name: "White/Black",
+            image: "images/nike-air-force-1-utility-white-black.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
