@@ -109,6 +109,16 @@ const products = {
         }
     ]
 },
+"yeezy-boost-380-alien": {
+    name: "Yeezy Boost 380 Alien",
+    size: "UK 4–10",
+    colours: [
+        {
+            name: "Grey/White/Light Green",
+            image: "images/yeezy-boost-380-alien-grey-white-light-green.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
