@@ -59,6 +59,28 @@ const products = {
         }
     ]
 },
+"nike-sb-dunk": {
+    name: "Nike SB Dunk",
+    size: "UK 4–10",
+    colours: [
+        {
+            name: "Red",
+            image: "images/nike-sb-dunk-red.jpg"
+        },
+        {
+            name: "Black",
+            image: "images/nike-sb-dunk-black.jpg"
+        },
+        {
+            name: "Orange",
+            image: "images/nike-sb-dunk-orange.jpg"
+        },
+        {
+            name: "Light Blue",
+            image: "images/nike-sb-dunk-light-blue.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
