@@ -15,9 +15,19 @@ const products = {
       }
     ]
   },
+    "air-force-sole-blue": {
+    name: "Nike Air Force 1 Sole Blue",
+    size: "UK 4–10",
+    colours: [
+        {
+            name: "White/Blue",
+            image: "images/air-force-sole-blue.jpg"
+        }
+    ]
+},
 
-  "yeezy-350-v2": {
-    name: "Yeezy 350 V2",
+"yeezy-350-v2": {
+  name: "Yeezy 350 V2",
     size: "UK 4–10",
     colours: [
       {
