@@ -35,6 +35,20 @@ const products = {
         }
     ]
 },
+"air-max-dia": {
+    name: "Nike Air Max Dia",
+    size: "UK 4–10",
+    colours: [
+        {
+            name: "White",
+            image: "images/air-max-dia-white.jpg"
+        },
+        {
+            name: "Black",
+            image: "images/air-max-dia-black.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
