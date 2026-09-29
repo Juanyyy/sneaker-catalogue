@@ -33,10 +33,31 @@
         </p>
       </section>
     </header>
+    <!-- CATEGORY NAVIGATION -->
+<nav class="category-nav" aria-label="Catalogue categories">
+  <button
+    type="button"
+    class="category-tab active"
+    data-category="sneakers"
+  >
+    SNEAKERS
+  </button>
+
+  <button
+    type="button"
+    class="category-tab"
+    data-category="womens"
+  >
+    WOMEN'S CLOTHING & ACCESSORIES
+  </button>
+</nav>
 
 
     <!-- PRODUCT SECTION -->
-    <section class="products-section">
+    <section
+  class="products-section category-section"
+  data-category-section="sneakers"
+>
 
       <div class="section-heading">
         <h2>Sneakers</h2>
@@ -346,7 +367,48 @@
       </div>
 
     </section>
+<!-- WOMEN'S CLOTHING & ACCESSORIES -->
+<section
+  class="products-section category-section"
+  data-category-section="womens"
+  hidden
+>
+  <div class="section-heading">
+    <h2>Women's Clothing & Accessories</h2>
+  </div>
 
+  <div class="product-grid">
+  <!-- ANIKA STITCH INTEREST KNIT MINI DRESS -->
+<article
+  class="product-card"
+  data-product="anika-stitch-interest-knit-mini-dress"
+  tabindex="0"
+  role="button"
+>
+  <div class="product-image">
+    <img
+      src="images/anika-stitch-interest-knit-mini-dress-soft-blue.jpg"
+      alt="Anika Stitch Interest Knit Mini Dress Soft Blue"
+    >
+  </div>
+
+  <div class="product-info">
+    <h3>Anika Stitch Interest Knit Mini Dress</h3>
+
+    <p>
+      Soft Blue<br>
+      UK/AU 4–18
+    </p>
+
+    <div class="card-divider"></div>
+
+    <span class="view-product">
+      VIEW PRODUCT →
+    </span>
+  </div>
+</article>
+  </div>
+</section>
   </main>
 
 
@@ -395,9 +457,9 @@
         Product Name
       </h1>
 
-      <p class="product-meta">
-        UK 4–10 · DM for current availability
-      </p>
+      <p id="product-meta" class="product-meta">
+  DM for current availability
+</p>
 
 
       <div class="colour-section">

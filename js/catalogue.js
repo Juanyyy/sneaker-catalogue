@@ -119,6 +119,17 @@ const products = {
         }
     ]
 },
+"anika-stitch-interest-knit-mini-dress": {
+    name: "Anika Stitch Interest Knit Mini Dress",
+    size: "UK/AU 4, 6, 8, 10, 12, 14, 16, 18",
+    description: "Soft-blue knit mini dress with textured stitching, short sleeves and a fitted waist. A-line skirt and decorative gold-tone buttons.",
+    colours: [
+        {
+            name: "Soft Blue",
+            image: "images/anika-stitch-interest-knit-mini-dress-soft-blue.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
@@ -147,7 +158,7 @@ const productPage = document.getElementById("product-page");
 
 const productName = document.getElementById("product-name");
 const productTopName = document.getElementById("product-top-name");
-
+const productMeta = document.getElementById("product-meta");
 const mainProductImage =
   document.getElementById("main-product-image");
 
@@ -170,7 +181,7 @@ selectedColour = product.colours[0].name;
 
   productName.textContent = product.name;
   productTopName.textContent = product.name;
-
+productMeta.textContent = `${product.size} · DM for current availability`;
   colourOptions.innerHTML = "";
 
   product.colours.forEach((colour, index) => {
@@ -296,3 +307,24 @@ dmButton.addEventListener("click", event => {
 });
 
 
+/* CATEGORY SWITCHING */
+
+const categoryTabs = document.querySelectorAll(".category-tab");
+const categorySections = document.querySelectorAll(".category-section");
+
+categoryTabs.forEach(tab => {
+  tab.addEventListener("click", () => {
+    const selectedCategory = tab.dataset.category;
+
+    categoryTabs.forEach(button => {
+      button.classList.remove("active");
+    });
+
+    tab.classList.add("active");
+
+    categorySections.forEach(section => {
+      section.hidden =
+        section.dataset.categorySection !== selectedCategory;
+    });
+  });
+});
