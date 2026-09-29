@@ -49,6 +49,16 @@ const products = {
         }
     ]
 },
+"ispa-air-max-720": {
+    name: "Nike ISPA Air Max 720",
+    size: "UK 4–10",
+    colours: [
+        {
+            name: "White/Black/Grey/Blue",
+            image: "images/ispa-air-max-720-white-black-grey-blue.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
