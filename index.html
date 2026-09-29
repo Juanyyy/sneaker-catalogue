@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sneaker Catalogue</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       CATALOGUE HOME
+  ========================== -->
+  <main id="catalogue-page" class="page active">
+
+    <header class="site-header">
+      <div class="header-row">
+        <h1>CATALOGUE</h1>
+        <span>SNEAKERS · 2026</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <section class="hero">
+        <h2>FIND YOUR<br>NEXT PAIR.</h2>
+
+        <p>
+          Browse the collection, select a sneaker and view the
+          available colourways. DM for current availability.
+        </p>
+      </section>
+    </header>
+
+
+    <!-- PRODUCT SECTION -->
+    <section class="products-section">
+
+      <div class="section-heading">
+        <h2>Sneakers</h2>
+        <span>2 PRODUCTS</span>
+      </div>
+
+
+      <div class="product-grid">
+
+        <!-- AIR FORCE 1 -->
+        <article
+          class="product-card"
+          data-product="air-force-1"
+          tabindex="0"
+          role="button"
+        >
+
+          <div class="product-image">
+            <img
+              src="images/air-force-black.jpg"
+              alt="Nike Air Force 1 Black"
+            >
+          </div>
+
+          <div class="product-info">
+            <h3>Nike Air Force 1</h3>
+
+            <p>
+              Black · White<br>
+              UK 4–10
+            </p>
+
+            <div class="card-divider"></div>
+
+            <span class="view-product">
+              VIEW PRODUCT →
+            </span>
+          </div>
+
+        </article>
+
+
+        <!-- YEEZY 350 V2 -->
+        <article
+          class="product-card"
+          data-product="yeezy-350-v2"
+          tabindex="0"
+          role="button"
+        >
+
+          <div class="product-image">
+            <img
+              src="images/yeezy-black.jpg"
+              alt="Yeezy 350 V2 Black"
+            >
+          </div>
+
+          <div class="product-info">
+            <h3>Yeezy 350 V2</h3>
+
+            <p>
+              White · Black · Grey<br>
+              UK 4–10
+            </p>
+
+            <div class="card-divider"></div>
+
+            <span class="view-product">
+              VIEW PRODUCT →
+            </span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================
+       PRODUCT PAGE
+  ========================== -->
+  <main id="product-page" class="page">
+
+    <div class="product-page-header">
+
+      <button
+        id="back-button"
+        class="back-button"
+        type="button"
+      >
+        ← BACK
+      </button>
+
+      <span id="product-top-name">
+        PRODUCT
+      </span>
+
+    </div>
+
+
+    <div class="divider"></div>
+
+
+    <!-- MAIN PRODUCT IMAGE -->
+    <section class="main-product-image">
+
+      <img
+        id="main-product-image"
+        src=""
+        alt=""
+      >
+
+    </section>
+
+
+    <!-- PRODUCT DETAILS -->
+    <section class="product-details">
+
+      <h1 id="product-name">
+        Product Name
+      </h1>
+
+      <p class="product-meta">
+        UK 4–10 · DM for current availability
+      </p>
+
+
+      <div class="colour-section">
+
+        <p class="small-heading">
+          SELECT COLOUR
+        </p>
+
+        <div
+          id="colour-options"
+          class="colour-options"
+        >
+          <!-- JavaScript adds colour buttons here -->
+        </div>
+
+      </div>
+
+
+      <a
+        id="dm-button"
+        class="dm-button"
+        href="#"
+      >
+        DM FOR AVAILABILITY
+      </a>
+
+    </section>
+
+  </main>
+
+
+
+  <script src="js/catalogue.js"></script>
+
+</body>
+</html>
