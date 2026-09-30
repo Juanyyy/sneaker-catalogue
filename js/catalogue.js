@@ -130,6 +130,28 @@ const products = {
         }
     ]
 },
+"clara-pleated-lace-trim-midi-dress": {
+    name: "Clara Pleated Lace Trim Midi Dress",
+    size: "UK/AU 4, 6, 8, 10, 12, 14, 16, 18, 20",
+    description: "Spotted midi dress with a pleated A-line skirt, lace trims and sheer blouson sleeves. Belted elastic waist and lined body.",
+    colours: [
+        {
+            name: "Dark Risley Spot",
+            image: "images/clara-pleated-lace-trim-midi-dress-dark-risley-spot.jpg"
+        }
+    ]
+},
+"ivy-lace-corset-drape-maxi-dress": {
+    name: "Ivy Lace Corset Drape Maxi Dress",
+    size: "UK/AU 4, 6, 8, 10, 12, 14, 16",
+    description: "Dark-chocolate maxi dress with a structured lace bodice, draped waist and a column skirt. Lined, with a concealed back zip.",
+    colours: [
+        {
+            name: "Dark Chocolate",
+            image: "images/ivy-lace-corset-drape-maxi-dress-dark-chocolate.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
