@@ -152,6 +152,39 @@ const products = {
         }
     ]
 },
+"arielle-lace-midi-dress": {
+    name: "Arielle Lace Midi Dress",
+    size: "UK/AU 4, 6, 8, 10, 12, 14, 16",
+    description: "Plum-brown floral-lace midi dress with a fitted bodice, flutter shoulders and a flowing pleated skirt. High neckline and rear keyhole fastening.",
+    colours: [
+        {
+            name: "Plum Brown",
+            image: "images/arielle-lace-midi-dress-plum-brown.jpg"
+        }
+    ]
+},
+"elaine-belted-fit-and-flare-midi-dress": {
+    name: "Elaine Belted Fit-and-Flare Midi Dress",
+    size: "6, 8, 10, 12, 14, 16, 18",
+    description: "Apple-green sleeveless midi dress with a fit-and-flare shape and matching fabric waist belt. Viscose-blend stretch fabric.",
+    colours: [
+        {
+            name: "Apple Green",
+            image: "images/elaine-belted-fit-and-flare-midi-dress-apple-green.jpg"
+        }
+    ]
+},
+"ayla-linen-mini-skirt": {
+    name: "Ayla Linen Mini Skirt",
+    size: "UK/AU 4, 6, 8, 10, 12, 14, 16",
+    description: "Lined linen mini skirt with an A-line shape and a concealed side zip. Skirt only; styling pieces shown in the photograph are not included.",
+    colours: [
+        {
+            name: "Porcelain",
+            image: "images/ayla-linen-mini-skirt-porcelain.jpg"
+        }
+    ]
+},
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
