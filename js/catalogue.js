@@ -177,7 +177,8 @@ const products = {
 "ayla-linen-mini-skirt": {
     name: "Ayla Linen Mini Skirt",
     size: "UK/AU 4, 6, 8, 10, 12, 14, 16",
-    description: "Lined linen mini skirt with an A-line shape and a concealed side zip. Skirt only; styling pieces shown in the photograph are not included.",
+    description: "Lined linen mini skirt with an A-line shape and a concealed side zip.",
+    notice: "IMPORTANT: Skirt only; styling pieces shown in the photograph are not included.",
     colours: [
         {
             name: "Porcelain",
@@ -214,6 +215,8 @@ const productPage = document.getElementById("product-page");
 const productName = document.getElementById("product-name");
 const productTopName = document.getElementById("product-top-name");
 const productMeta = document.getElementById("product-meta");
+const productDescription = document.getElementById("product-description");
+const productNotice = document.getElementById("product-notice");
 const mainProductImage =
   document.getElementById("main-product-image");
 
@@ -237,6 +240,15 @@ selectedColour = product.colours[0].name;
   productName.textContent = product.name;
   productTopName.textContent = product.name;
 productMeta.textContent = `${product.size} · DM for current availability`;
+productDescription.textContent = "";
+
+if (product.notice) {
+    productNotice.textContent = product.notice;
+    productNotice.hidden = false;
+} else {
+    productNotice.textContent = "";
+    productNotice.hidden = true;
+}
   colourOptions.innerHTML = "";
 
   product.colours.forEach((colour, index) => {
