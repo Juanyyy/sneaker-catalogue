@@ -363,7 +363,7 @@ const dmButton = document.getElementById("dm-button");
 dmButton.addEventListener("click", event => {
   event.preventDefault();
 
-  const phoneNumber = "27638614852";
+  const phoneNumber = "27608791111";
 
  const message =
   `Hi! I'm interested in the ${selectedProduct} - ${selectedColour}. Could you please confirm availability?`;
