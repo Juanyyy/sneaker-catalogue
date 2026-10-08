@@ -186,6 +186,19 @@ const products = {
         }
     ]
 },
+
+"autumn-polka-dot-midi-skirt": {
+  name: "Autumn Polka-Dot Midi Skirt",
+  size: "6, 8, 10, 12, 14, 16, 18",
+  notice: "IMPORTANT: Skirt only; matching tops are separate.",
+  colours: [
+    {
+      name: "White/Black",
+      image: "images/autumn-polka-dot-midi-skirt-white-black.jpg"
+    }
+  ]
+},
+
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
