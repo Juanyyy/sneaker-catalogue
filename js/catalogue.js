@@ -222,6 +222,17 @@ const products = {
   ]
 },
 
+"rebecca-scallop-trim-tshirt": {
+  name: "Rebecca Scallop Trim T-Shirt",
+  size: "XXS, XS, S, M, L, XL",
+  colours: [
+    {
+      name: "Cloud Blue/Porcelain",
+      image: "images/rebecca-scallop-trim-tshirt-cloud-blue-porcelain.jpg"
+    }
+  ]
+},
+
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
