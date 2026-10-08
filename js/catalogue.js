@@ -211,6 +211,17 @@ const products = {
   ]
 },
 
+"finley-printed-blouse": {
+  name: "Finley Printed Blouse",
+  size: "UK/AU 4, 6, 8, 10, 12, 14, 16",
+  colours: [
+    {
+      name: "Saffia Ditsy",
+      image: "images/finley-printed-blouse-saffia-ditsy.jpg"
+    }
+  ]
+},
+
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
