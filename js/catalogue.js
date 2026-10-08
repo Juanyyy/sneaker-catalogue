@@ -199,6 +199,18 @@ const products = {
   ]
 },
 
+"althea-anglaise-midi-skirt": {
+  name: "Althea Anglaise Midi Skirt",
+  size: "6, 8, 10, 12, 14, 16, 18",
+  notice: "IMPORTANT: Skirt only; top not included.",
+  colours: [
+    {
+      name: "Red",
+      image: "images/althea-anglaise-midi-skirt-red.jpg"
+    }
+  ]
+},
+
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
