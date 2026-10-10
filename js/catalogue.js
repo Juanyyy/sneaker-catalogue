@@ -233,6 +233,17 @@ const products = {
   ]
 },
 
+"alexis-short-sleeve-blouse": {
+  name: "Alexis Short Sleeve Blouse",
+  size: "UK/AU 4, 6, 8, 10, 12, 14, 16, 18",
+  colours: [
+    {
+      name: "Porcelain",
+      image: "images/alexis-short-sleeve-blouse-porcelain.jpg"
+    }
+  ]
+},
+
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
