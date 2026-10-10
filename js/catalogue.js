@@ -244,6 +244,54 @@ const products = {
   ]
 },
 
+"indie-tuck-blouse": {
+  name: "Indie Tuck Blouse",
+  size: "UK/AU 4, 6, 8, 10, 12, 14, 16, 18",
+  colours: [
+    {
+      name: "Rosewater",
+      image: "images/indie-tuck-blouse-rosewater.jpg"
+    }
+  ]
+},
+
+"kai-fitted-short-sleeve-top": {
+  name: "Kai Fitted Short-Sleeve Top",
+  size: "4, 6, 8, 10, 12, 14, 16",
+  notice: "IMPORTANT: Top only.",
+  colours: [
+    {
+      name: "Red",
+      image: "images/kai-fitted-short-sleeve-top-red.jpg"
+    }
+  ]
+},
+
+"lola-bodysuit": {
+  name: "Lola Bodysuit",
+  size: "4, 6, 8, 10, 12, 14, 16",
+  notice: "IMPORTANT: Bodysuit only.",
+  colours: [
+    {
+      name: "White/Black",
+      image: "images/lola-bodysuit-white-black.jpg"
+    }
+  ]
+},
+
+"becky-bowler-bag": {
+  name: "Becky Bowler Bag",
+  size: "One size",
+  showDescription: true,
+  description: "Structured faux-leather bowler bag with top handles, zip fastening and a detachable adjustable strap. Gold-tone hardware and an internal pouch. Approx. 26 × 16.5 × 10 cm (W × H × D).",
+  colours: [
+    {
+      name: "Black Saffiano",
+      image: "images/becky-bowler-bag-black-saffiano.jpg"
+    }
+  ]
+},
+
 "yeezy-350-v2": {
   name: "Yeezy 350 V2",
     size: "UK 4–10",
@@ -298,7 +346,9 @@ selectedColour = product.colours[0].name;
   productName.textContent = product.name;
   productTopName.textContent = product.name;
 productMeta.textContent = `${product.size} · DM for current availability`;
-productDescription.textContent = "";
+
+productDescription.textContent = product.showDescription ? (product.description || "") : "";
+
 
 if (product.notice) {
     productNotice.textContent = product.notice;
