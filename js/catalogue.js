@@ -3,7 +3,8 @@ let selectedColour = "";
 const products = {
   "air-force-1": {
     name: "Nike Air Force 1",
-    size: "UK 4–10",
+    size: "UK 3–10",
+
     colours: [
       {
         name: "Black",
@@ -15,110 +16,8 @@ const products = {
       }
     ]
   },
-    "air-force-sole-blue": {
-    name: "Nike Air Force 1 Sole Blue",
-    size: "UK 4–10",
-    colours: [
-        {
-            name: "White/Blue",
-            image: "images/air-force-sole-blue.jpg"
-        }
-    ]
-},
-"air-force-first-use": {
-    name: "Nike Air Force 1 First Use",
-    size: "UK 4–10",
-    colours: [
-        {
-            name: "White/Grey",
-            image: "images/air-force-first-use.jpg"
-        }
-    ]
-},
-"air-max-dia": {
-    name: "Nike Air Max Dia",
-    size: "UK 4–10",
-    colours: [
-        {
-            name: "White",
-            image: "images/air-max-dia-white.jpg"
-        },
-        {
-            name: "Black",
-            image: "images/air-max-dia-black.jpg"
-        }
-    ]
-},
-"ispa-air-max-720": {
-    name: "Nike ISPA Air Max 720",
-    size: "UK 4–10",
-    colours: [
-        {
-            name: "White/Black/Grey/Blue",
-            image: "images/ispa-air-max-720-white-black-grey-blue.jpg"
-        }
-    ]
-},
-"nike-sb-dunk": {
-    name: "Nike SB Dunk",
-    size: "UK 4–10",
-    colours: [
-        {
-            name: "Red",
-            image: "images/nike-sb-dunk-red.jpg"
-        },
-        {
-            name: "Black",
-            image: "images/nike-sb-dunk-black.jpg"
-        },
-        {
-            name: "Orange",
-            image: "images/nike-sb-dunk-orange.jpg"
-        },
-        {
-            name: "Light Blue",
-            image: "images/nike-sb-dunk-light-blue.jpg"
-        }
-    ]
-},
-"nike-air-max-97": {
-    name: "Nike Air Max 97",
-    size: "UK 4–10",
-    colours: [
-        {
-            name: "Silver",
-            image: "images/nike-air-max-97-silver.jpg"
-        },
-        {
-            name: "Black",
-            image: "images/nike-air-max-97-black.jpg"
-        },
-        {
-            name: "White",
-            image: "images/nike-air-max-97-white.jpg"
-        }
-    ]
-},
-"nike-air-force-1-utility": {
-    name: "Nike Air Force 1 Utility",
-    size: "UK 4–10",
-    colours: [
-        {
-            name: "White/Black",
-            image: "images/nike-air-force-1-utility-white-black.jpg"
-        }
-    ]
-},
-"yeezy-boost-380-alien": {
-    name: "Yeezy Boost 380 Alien",
-    size: "UK 4–10",
-    colours: [
-        {
-            name: "Grey/White/Light Green",
-            image: "images/yeezy-boost-380-alien-grey-white-light-green.jpg"
-        }
-    ]
-},
+ 
+
 "anika-stitch-interest-knit-mini-dress": {
     name: "Anika Stitch Interest Knit Mini Dress",
     size: "UK/AU 4, 6, 8, 10, 12, 14, 16, 18",
