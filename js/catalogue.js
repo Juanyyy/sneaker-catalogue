@@ -17,6 +17,45 @@ const products = {
     ]
   },
  
+"adidas-campus": {
+  name: "Adidas Campus",
+  size: "UK 3–10",
+  colours: [
+    {
+      name: "Black/White",
+      image: "images/adidas-campus-black-white.jpg"
+    },
+    {
+      name: "Beige/White",
+      image: "images/adidas-campus-beige-white.jpg"
+    },
+    {
+      name: "Grey/White",
+      image: "images/adidas-campus-grey-white.jpg"
+    },
+    {
+      name: "Cream/Green",
+      image: "images/adidas-campus-cream-green.jpg"
+    },
+    {
+      name: "Burgundy/White",
+      image: "images/adidas-campus-burgundy-white.jpg"
+    },
+    {
+      name: "Royal Blue/White",
+      image: "images/adidas-campus-royal-blue-white.jpg"
+    },
+    {
+      name: "Green/White",
+      image: "images/adidas-campus-green-white.jpg"
+    },
+    {
+      name: "Purple/White",
+      image: "images/adidas-campus-purple-white.jpg"
+    }
+  ]
+},
+
 
 "anika-stitch-interest-knit-mini-dress": {
     name: "Anika Stitch Interest Knit Mini Dress",

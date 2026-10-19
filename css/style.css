@@ -545,6 +545,10 @@ img {
   margin-bottom: 28px;
 }
 
+.category-nav .category-tab:last-child {
+  grid-column: 1 / -1;
+}
+
 .category-tab {
   width: 100%;
   min-height: 54px;
