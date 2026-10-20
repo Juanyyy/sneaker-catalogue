@@ -40,6 +40,33 @@ const products = {
   ]
 },
 
+"nike-ava-rover": {
+  name: "Nike Ava Rover",
+  size: "UK 3–10",
+  colours: [
+    {
+      name: "All Black",
+      image: "images/nike-ava-rover-all-black.jpeg"
+    },
+    {
+      name: "Black/Cream",
+      image: "images/nike-ava-rover-black-cream.jpeg"
+    },
+    {
+      name: "Black/Green",
+      image: "images/nike-ava-rover-black-green.jpg"
+    },
+    {
+      name: "Cream/Teal",
+      image: "images/nike-ava-rover-cream-teal.jpg"
+    },
+    {
+      name: "Grey/Black/Orange",
+      image: "images/nike-ava-rover-grey-black-orange.jpeg"
+    }
+  ]
+},
+
 "adidas-campus": {
   name: "Adidas Campus",
   size: "UK 3–10",
