@@ -17,6 +17,29 @@ const products = {
     ]
   },
  
+"nike-dunk-low-supreme": {
+  name: "Nike Dunk Low / Supreme",
+  size: "UK 3–10",
+  colours: [
+    {
+      name: "Olive Green",
+      image: "images/nike-dunk-low-supreme-olive-green.jpg"
+    },
+    {
+      name: "Grey",
+      image: "images/nike-dunk-low-supreme-grey.jpg"
+    },
+    {
+      name: "Burgundy",
+      image: "images/nike-dunk-low-supreme-burgundy.jpg"
+    },
+    {
+      name: "Beige",
+      image: "images/nike-dunk-low-supreme-beige.jpg"
+    }
+  ]
+},
+
 "adidas-campus": {
   name: "Adidas Campus",
   size: "UK 3–10",
