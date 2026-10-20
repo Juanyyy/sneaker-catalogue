@@ -134,6 +134,65 @@ const products = {
   ]
 },
 
+"adidas-adizero-evo-sl": {
+  name: "Adidas Adizero EVO SL",
+  size: "UK 3–10",
+  colours: [
+    {
+      name: "Core Black/Cloud White",
+      image: "images/adidas-adizero-evo-sl-core-black-cloud-white.jpeg"
+    },
+    {
+      name: "Black/Lucid Red",
+      image: "images/adidas-adizero-evo-sl-black-lucid-red.jpeg"
+    },
+    {
+      name: "Bob Marley Yellow",
+      image: "images/adidas-adizero-evo-sl-bob-marley-yellow.jpeg"
+    },
+    {
+      name: "Cloud White/Core Black",
+      image: "images/adidas-adizero-evo-sl-cloud-white-core-black.jpeg"
+    },
+    {
+      name: "Core Black/Pure Teal",
+      image: "images/adidas-adizero-evo-sl-core-black-pure-teal.jpeg"
+    },
+    {
+      name: "Core Black/Silver Metallic",
+      image: "images/adidas-adizero-evo-sl-core-black-silver-metallic.jpg"
+    },
+    {
+      name: "Grey Four/Halo Silver/Core Black",
+      image: "images/adidas-adizero-evo-sl-grey-four-halo-silver-core-black.jpeg"
+    },
+    {
+      name: "Lucid Lemon/Core Black",
+      image: "images/adidas-adizero-evo-sl-lucid-lemon-core-black.jpeg"
+    },
+    {
+      name: "Silver Metallic/Lucid Red",
+      image: "images/adidas-adizero-evo-sl-silver-metallic-lucid-red.jpeg"
+    },
+    {
+      name: "To Run Is To Live",
+      image: "images/adidas-adizero-evo-sl-to-run-is-to-live.jpeg"
+    },
+    {
+      name: "White/Blue",
+      image: "images/adidas-adizero-evo-sl-white-blue.jpeg"
+    },
+    {
+      name: "Wonder White/Cyber Metallic",
+      image: "images/adidas-adizero-evo-sl-wonder-white-cyber-metallic.jpeg"
+    },
+    {
+      name: "Boston 13 - Cream/Pink",
+      image: "images/adidas-adizero-boston-13-cream-pink.jpeg"
+    }
+  ]
+},
+
 "adidas-campus": {
   name: "Adidas Campus",
   size: "UK 3–10",
