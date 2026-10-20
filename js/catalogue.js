@@ -67,6 +67,73 @@ const products = {
   ]
 },
 
+"nike-air-max-1": {
+  name: "Nike Air Max 1",
+  size: "UK 3–10",
+  colours: [
+    {
+      name: "Kasina Won-Ang Orange",
+      image: "images/nike-air-max-1-kasina-won-ang-orange.jpg"
+    },
+    {
+      name: "Patta Chlorophyll",
+      image: "images/nike-air-max-1-patta-chlorophyll.jpeg"
+    },
+    {
+      name: "Sail/Multicolour",
+      image: "images/nike-air-max-1-sail-multicolour.jpg"
+    },
+    {
+      name: "SC Cacao Wow",
+      image: "images/nike-air-max-1-sc-cacao-wow.jpeg"
+    },
+    {
+      name: "SC Dark Stucco",
+      image: "images/nike-air-max-1-sc-dark-stucco.jpeg"
+    },
+    {
+      name: "Urawa 2",
+      image: "images/nike-air-max-1-urawa-2.jpeg"
+    }
+  ]
+},
+
+
+"nike-air-max-90": {
+  name: "Nike Air Max 90",
+  size: "UK 3–10",
+  colours: [
+    {
+      name: "Leopard/Pink",
+      image: "images/nike-air-max-90-wmns-leopard-pink.jpeg"
+    }
+  ]
+},
+
+
+"nike-air-max-97": {
+  name: "Nike Air Max 97",
+  size: "UK 3–10",
+  colours: [
+    {
+      name: "Black",
+      image: "images/nike-air-max-97-black.jpg"
+    },
+    {
+      name: "Silver",
+      image: "images/nike-air-max-97-silver.jpg"
+    },
+    {
+      name: "Washed Denim",
+      image: "images/nike-air-max-97-washed-denim.jpeg"
+    },
+    {
+      name: "White",
+      image: "images/nike-air-max-97-white.jpg"
+    }
+  ]
+},
+
 "adidas-campus": {
   name: "Adidas Campus",
   size: "UK 3–10",
