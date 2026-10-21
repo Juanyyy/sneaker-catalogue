@@ -193,6 +193,37 @@ const products = {
   ]
 },
 
+"adidas-adistar-collection": {
+  name: "Adidas Adistar Collection",
+  size: "UK 3–10",
+  colours: [
+    {
+      name: "Adistar XLG 2.0 - Cloud White/Core Black/Solar Orange",
+      image: "images/adidas-adistar-xlg-2-0-cloud-white-core-black-solar-orange.jpeg"
+    },
+    {
+      name: "Adistar XLG 2.0 - Hi-Res Blue/Core Black/Off White",
+      image: "images/adidas-adistar-xlg-2-0-hi-res-blue-core-black-off-white.jpeg"
+    },
+    {
+      name: "Pharrell Adistar Jellyfish - Crystal Sand",
+      image: "images/adidas-pharrell-adistar-jellyfish-crystal-sand.jpeg"
+    },
+    {
+      name: "Pharrell Adistar Jellyfish - Real Green",
+      image: "images/adidas-pharrell-adistar-jellyfish-real-green.jpeg"
+    },
+    {
+      name: "Pharrell Adistar Jellyfish - Solid Grey",
+      image: "images/adidas-pharrell-adistar-jellyfish-solid-grey.jpeg"
+    },
+    {
+      name: "Pharrell Adistar Jellyfish - Triple Black",
+      image: "images/adidas-pharrell-adistar-jellyfish-triple-black.jpeg"
+    }
+  ]
+},
+
 "adidas-campus": {
   name: "Adidas Campus",
   size: "UK 3–10",
